@@ -1,5 +1,19 @@
 @import-normalize; /* bring in normalize.css styles */
 
+#root {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  place-content: center;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  place-content: center;
+  
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,9 +21,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+    padding: 2rem;
+    /* text-align: center; */
+    background-color: rgb(231, 235, 235);
+    place-content: rig;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  
 }
